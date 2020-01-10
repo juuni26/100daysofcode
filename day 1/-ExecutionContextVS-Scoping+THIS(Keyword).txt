@@ -1,0 +1,31 @@
+- 2 fase javascript ngolah code dalam execution context 
+
+1.create
+global object di jalanin,
+didalem function tidak dijalanin dulu, ketika nyampe di function baru dibikin stack baru 
+dari execution context.
+
+variable => declare awal undefined.
+function => declare awal return function itu sendiri.
+
+2.execute.
+
+jalanin global object dari atas.
+didalem function tidak dijalanin dulu, ketika nyampe di function baru dibikin 
+stack baru dari execution context.
+
+- chain scoping
+dijavascript scope dibuat ketika ada function baru saja, (default global scope)
+ketika function baru dibuat akan ada scope baru yang memiliki akses ke scope parent ( scope parent + scope current)
+kalo chain scoping itu tumpukan yang terjadi berantai dari tiap2 scope.
+
+- execution context vs chain scoping
+
+exectuion context cara bagaimana function dipanggil .
+sedangkan chain scoping cara bagaima function ditulis .
+
+- this keyword
+
+only assign when the method / function called (to the current state.)
+if method called then it refers to the object.
+if global function called then it refers to the window / global object.

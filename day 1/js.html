@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Learning js day 1</h3>
+
+
+
+
+
+<script>
+// Reviewing javascript
+//create function loveYou
+
+function loveYou(name) {
+    alert(`hello ${name}, Love your name ^^`)
+}
+
+let name = prompt("what's your name ?"); 
+loveYou(name);
+let age = +prompt("how old are you?");
+
+function Profile(name,age){
+    this.name = name;
+    this.age = age;
+
+    this.showProfile = function(){
+        alert(`Profile\nName : ${this.name}\nAge : ${this.age} `);
+    }
+};
+
+let profile = new Profile(name,age);
+profile.showProfile();
+
+let obj = {
+    1: 4 ,
+    4 : 2 ,
+    3 : 4 
+};
+alert(obj["1"]); //call number as key
+
+//function arrow 
+
+let whoAmI = (name)=>(`i am ${name}`);
+alert(whoAmI(prompt("siapa saya ?")));
+
+
+</script>
+</body>
+</html>
