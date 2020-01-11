@@ -1,0 +1,16 @@
+qeueryselector method works like selector in css.
+
+2 ways to put content in dom : 1. .textContent = produce plain text.
+				2. .innerHTML = produce html content.
+
+event listener function work when the executon stack is empty, 
+then it will process the event.
+
+call back function =  function that called by another function, not us.
+example : ( .addEventListener(arg1,functionNameHere); ) .
+
+anonymus function = function that doesnt have name, it cannot be reuse.
+
+example : ( .addEventListener(arg1,function(){ 
+	//do something
+	});
