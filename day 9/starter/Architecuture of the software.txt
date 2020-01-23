@@ -1,0 +1,33 @@
+	the architecture of web developing
+
+1. make to do list 
+2. modules (pembagian), break into modules that can interact to others 
+( get from to do list). eg; ui module, data modules, controller modules .
+4. implement module pattern.  ( data privacy, encapsulation,public& private methods, api for complex project)
+4 . create module, than use iife and closures implementation. 
+Encapsulation= makes everything private, and only give public what we wants. its like API
+
+eg: BudgetBulanan
+to do list :
+1 create event listener
+2 input variable into ui
+3.get in variable into structure
+4. update the ui of structure
+5. calculate the budget
+6. update the budget ui 
+
+modules :
+uiController 
+
+-input variable into ui
+-update ui strucutre
+-update the budge ui
+
+dataController :
+-get in variable into structure
+-calculate the budget
+
+appController : (hub / connecting other modules)
+- create event listener
+
+

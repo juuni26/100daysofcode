@@ -1,0 +1,8 @@
+call = method borrowing use call with parameters
+apply = method borrowing use array as second parameter
+bind = return function dengan function yang udah di presetting argumentnya.
+curry = using pre setting function to function.
+	function  D(a)(b);
+	function E = D(a);
+	jalanin E(b); 
+create function by using other function that already pre setting the argument
